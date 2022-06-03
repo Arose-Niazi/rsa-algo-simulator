@@ -5,7 +5,7 @@ plugins {
     id 'com.avast.gradle.docker-compose' version '0.14.3'
 }
 
-group 'com.tom'
+group 'com'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -20,7 +20,7 @@ sonarqube {
     properties {
         property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.login', 'admin'
-        property 'sonar.password', 'Arose123'
+        property 'sonar.password', 'test123'
     }
 }
 

@@ -1,4 +1,4 @@
-package com.tom.service;
+package com;
 
 import org.junit.Before;
 import org.junit.Test;
